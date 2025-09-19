@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library Management System</title>
+  <style>
+    /* Resetting some default styles */
+    body, h1, h2, h3, p, ul {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+    }
+
+    /* Background and Layout */
+    body {
+      background: #f4f7fc;
+      color: #333;
+      font-size: 16px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    /* Header Styling */
+    header {
+      background: #0044cc;
+      color: white;
+      padding: 20px 0;
+      width: 100%;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin: 0;
+    }
+
+    /* Main Section Styling */
+    .main-container {
+      background: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      padding: 40px;
+      max-width: 900px;
+      width: 100%;
+    }
+
+    h2 {
+      color: #333;
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    .card {
+      background-color: #0099ff;
+      color: white;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 20px 0;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+    }
+
+    .card h3 {
+      font-size: 1.6em;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 1.2em;
+    }
+
+    /* Footer Styling */
+    footer {
+      background-color: #222;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    /* Button Styling */
+    .btn {
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 1.2em;
+      transition: background-color 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #45a049;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Library Management System</h1>
+  </header>
+
+  <div class="main-container">
+    <h2>Welcome to the Library</h2>
+    <div class="card">
+      <h3>Book Collection</h3>
+      <p>Manage and view all books in the library.</p>
+      <a href="#" class="btn">View Books</a>
+    </div>
+
+    <div class="card">
+      <h3>Borrow Books</h3>
+      <p>Borrow books and keep track of due dates.</p>
+      <a href="#" class="btn">Borrow a Book</a>
+    </div>
+
+    <div class="card">
+      <h3>Return Books</h3>
+      <p>Return borrowed books and keep your record updated.</p>
+      <a href="#" class="btn">Return Book</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Library Management System. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
